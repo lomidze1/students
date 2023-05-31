@@ -1,0 +1,17 @@
+.myApp {
+  background: rgb(236, 101, 140);
+  background: linear-gradient(
+    90deg,
+    rgba(236, 101, 140, 0.9248074229691877) 0%,
+    rgba(91, 157, 85, 0.9444152661064426) 50%,
+    rgba(0, 232, 255, 1) 100%
+  );
+  width: auto;
+  height: 100dvh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  min-height: 3000px;
+}

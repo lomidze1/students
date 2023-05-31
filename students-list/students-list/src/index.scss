@@ -1,0 +1,17 @@
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 7px 13px;
+  border: 2px solid rgb(21, 128, 65);
+  -o-border-radius: 0 12px;
+  -webkit-border-radius: 0 12px;
+  -moz-border-radius: 0 12px;
+  -ms-border-radius: 0 12px;
+  border-radius: 0 12px;
+  margin: 5px;
+}
